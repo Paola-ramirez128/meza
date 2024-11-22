@@ -1,0 +1,68 @@
+.login-box {
+    background-color: #bd19199a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    width: auto;
+    height: auto;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+}
+
+.login-box h2 {
+    margin: 0 0 20px;
+    padding: 0;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.textbox {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.textbox input {
+    margin: 40px auto 40px auto;
+    width: 100%;
+    padding: 10px;
+    background: #000000;
+    border: none;
+    outline: none;
+    color: #000000;
+    font-size: 18px;
+}
+
+.textbox input[type="file"] {
+    padding: 5px;
+}
+
+.btn {
+    width: 100%;
+    background: #ec0000;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #2b2929;
+    transition: 0.3s;
+    
+}
+
+.btn:hover {
+    background: #a13e3e;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #000000;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}

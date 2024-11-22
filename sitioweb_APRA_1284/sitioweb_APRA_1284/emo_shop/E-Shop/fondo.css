@@ -1,0 +1,17 @@
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  animation: move 10s infinite;
+  opacity: 0.6;
+}
+
+@keyframes move {
+  from {
+      transform: translateY(0);
+  }
+  to {
+      transform: translateY(-100vh);
+  }
+}
+

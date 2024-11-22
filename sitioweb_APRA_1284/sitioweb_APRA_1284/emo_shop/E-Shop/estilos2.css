@@ -1,0 +1,99 @@
+/* estilos.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:  #141414;;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+main {
+    width: 100%;
+    max-width: 900px;
+    background-color: rgb(233, 150, 122);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formulario h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 22px);
+}
+input:hover{
+    cursor: pointer;
+}
+
+.button {
+    padding: 10px;
+    background-color: #8a0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #002575;
+}
+
+p {
+    text-align: center;
+    color: rgb(42, 220, 255);
+}
+
+p a {
+    color: #31deeb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .form-container {
+        max-width: 100%;
+    }
+}
+
+
+
+
